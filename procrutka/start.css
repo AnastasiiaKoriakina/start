@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+h1,
+h2,
+p,
+h3 {
+  margin: 0px;
+}
+.paragraph,
+.paragraph2,
+.paragraph3 {
+  line-height: 38px;
+  font-size: 32px;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background: #008080;
+}
+
+.header-inner {
+  padding: 20px 54px 20px 55px;
+  text-decoration-color: #eeeeee;
+  width: 100%;
+}
+
+.section1 {
+  justify-content: center;
+  align-items: center;
+  background: url(peper.jpg); /* Путь к картинке */
+  background-size: cover; /* Растягиваем  фон по высоте и ширине */
+  background-position: center; /* Позиция фона по центру */
+  padding: 128px 163px;
+}
+.piper {
+  font-size: 83px;
+  color: rgb(255, 255, 255);
+  line-height: 84.38px;
+  text-align: center;
+}
+.section2 {
+  background-color: rgb(238, 238, 238);
+  padding: 48px 54px 92px 55px;
+}
+.title {
+  color: #007765;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.paragraph {
+  margin-bottom: 16px;
+  padding: 19px 54px 0px 55px;
+}
+.section3 {
+  justify-content: center;
+  align-items: center;
+  background: url(stars.jpg); /* Путь к картинке */
+  background-size: cover; /* Растягиваем  фон по высоте и ширине */
+  background-position: center; /* Позиция фона по центру */
+  padding: 160px auto;
+}
+.text2 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  padding: 128px 163px;
+  font-style: italic;
+}
+.section4 {
+  padding: 48px 54px;
+  background-color: #ffffff;
+}
+.paragraph2 {
+  padding: 16px 71px 0px 218px;
+}
+.logo2 {
+  padding: 16px 48px 0px 55px;
+  float: left;
+}
+.paragraph3 {
+  padding: 40px 54px 0px 55px;
+}
+.section5 {
+  background-color: #eeeeee;
+}
+.name {
+  color: rgb(0, 119, 101);
+  font-size: 24px;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.profession {
+  font-size: 18px;
+  line-height: 21px;
+  font-style: italic;
+  font-weight: 400;
+}
+.title {
+  font-weight: 500;
+}
+.footer {
+  background-color: rgb(51, 51, 51);
+}
+.h3 {
+  padding: 48px 339px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.box {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.box2 {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.cell {
+  flex: 40%;
+}
+.h2 {
+  padding: 48px 54px 0px 55px;
+  text-align: center;
+  color: #007765;
+  font-size: 64px;
+  line-height: 75px;
+}
+.figcaption {
+  text-align: center;
+}
+figure {
+  margin: 82px auto;
+}
